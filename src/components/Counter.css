@@ -1,19 +1,12 @@
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-p {
+.counter p {
   font-size: 1.5rem;
 }
 
-section div {
+.counter div {
   display: flex;
   gap: 0.25rem;
 }
 
-input {
+.counter input {
   width: 4rem;
 }

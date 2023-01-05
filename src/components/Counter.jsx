@@ -11,7 +11,7 @@ const Counter = () => {
   }
 
   return (
-    <section>
+    <section className="counter">
       <h1>Counter</h1>
       <p>{count}</p>
       <div>

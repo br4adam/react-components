@@ -15,7 +15,7 @@ const Rating = () => {
   const [rating, setRating] = useState(0)
 
   return (
-    <section>
+    <section className="rating">
       <h1>Rating</h1>
       <div>
         { stars.map((star, i) => 

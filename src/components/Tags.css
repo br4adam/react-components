@@ -1,0 +1,40 @@
+.tags input {
+  width: 10rem;
+}
+
+.tags > div {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  background-color: #6836e8;
+  border: 1px solid #4c20bc;
+  color: #ffffff;
+  padding: 0.5rem;
+}
+
+.tag p,
+.tag span {
+  font-size: 0.75rem;
+}
+
+.tag span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #ffffff50;
+  border-radius: 50%;
+  width: 1rem;
+  aspect-ratio: 1/1;
+  transition: 0.25s ease-in-out;
+}
+
+.tag span:hover {
+  transform: rotate(90deg);
+}

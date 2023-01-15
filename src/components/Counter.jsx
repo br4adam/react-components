@@ -16,7 +16,7 @@ const Counter = () => {
       <div>
         <button onClick={() => setCount(prev => prev - parseInt(step))}>-</button>
         <button onClick={() => setCount(prev => prev + parseInt(step))}>+</button>
-        <button onClick={handleReset}>reset</button>
+        <button onClick={handleReset}>Reset</button>
         <input type="number" value={step} onChange={(e) => setStep(e.target.value)} />
       </div>
     </section>

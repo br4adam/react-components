@@ -1,5 +1,4 @@
-import "./Rating.css"
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { AiFillStar, AiOutlineStar } from "react-icons/ai"
 import { useState } from "react"
 
 const stars = [ 1, 2, 3, 4, 5 ]

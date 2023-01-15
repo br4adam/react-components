@@ -1,4 +1,3 @@
-import "./Tags.css"
 import { useState } from "react"
 
 const Tags = () => {

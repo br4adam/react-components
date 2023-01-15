@@ -1,5 +1,4 @@
-import "./Accordion.css"
-import { BiChevronDown, BiChevronUp } from "react-icons/bi";
+import { BiChevronDown, BiChevronUp } from "react-icons/bi"
 import { useState } from "react"
 
 const Accordion = () => {

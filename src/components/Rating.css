@@ -1,14 +1,12 @@
 .rating div {
   display: flex;
-  gap: 0.25rem;
 }
 
-.rating img {
-  width: 2.25rem;
+.rating svg {
   cursor: pointer;
   transition: 0.25s ease-in-out;
 }
 
-.rating img:hover {
+.rating svg:hover {
   transform: scale(1.1);
 }

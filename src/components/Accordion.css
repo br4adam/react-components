@@ -1,6 +1,6 @@
 .accordion > div {
-  background-color: #d4eddb;
-  border: 1px solid #75c78c;
+  background-color: #6836e820;
+  border: 1px solid #6836e8;
   width: 22rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -14,10 +14,8 @@
   font-weight: 600;
 }
 
-.accordion .title img {
+.accordion .title svg {
   cursor: pointer;
-  user-select: none;
-  width: 1.25rem;
 }
 
 .accordion .body {

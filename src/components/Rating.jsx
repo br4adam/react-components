@@ -1,13 +1,16 @@
 import "./Rating.css"
-import star from "../assets/star_empty.png"
-import starfill from "../assets/star_fill.png"
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { useState } from "react"
 
 const stars = [ 1, 2, 3, 4, 5 ]
 
 const Star = ({ filled, onClick }) => {
   return (
-    <img src={filled ? starfill : star} onClick={onClick} />
+    <>
+    { filled 
+      ? <AiFillStar onClick={onClick} size={32} color="#6836e8" /> 
+      : <AiOutlineStar onClick={onClick} size={32} /> }
+    </>
   )
 }
 
